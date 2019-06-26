@@ -1,0 +1,210 @@
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: #F2F2F2;
+}
+
+body {
+    font-family: Saira, sans-serif;
+    font-size: 1em;
+    color: #000000;
+    max-width: 1200px;
+    background: white;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Avenir Next", sans-serif;
+    font-size: 1.4em;
+    font-weight: 200;
+    color: #7D7C7D;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Avenir Next", sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+p {
+    font-family: "Avenir Next", sans-serif;
+    font-size: 0.85em;
+}
+
+
+/*Header*/
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 2.3em 0;
+}
+
+.logo {
+	margin-left: 5%;
+	
+}
+
+.logo img {
+    display: block;
+}
+
+nav {
+	margin: 1.5em 0 0 5%;
+	text-align: center;
+}
+
+
+header ul li {
+    display: inline;
+    padding: 0 1.4em 0 0;
+    font-size: 0.9em;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #7D7C7D;
+}
+
+li a.active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    font-weight: 300;
+}
+
+li a:hover {
+    color: #B6B6B6;
+}
+
+
+
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	
+}
+
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+	margin: 0 auto;
+	justify-content: center;
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	margin: 0 auto;
+	display: flex
+	
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	
+	margin: 0 auto;
+	margin-left: 30px;
+	
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+
+
+
+
+
+
+
+
